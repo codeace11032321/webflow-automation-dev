@@ -1,0 +1,22 @@
+{
+  "name": "webflow-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.39.3",
+    "axios": "1.6.5",
+    "cors": "2.8.5",
+    "dotenv": "16.4.1"
+  },
+  "devDependencies": {
+    "vercel": "33.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
